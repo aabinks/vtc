@@ -23,6 +23,7 @@ Run the new_instance.sh script
 
 To classifiy some images:
 run the command 'conda activate burns_vtc'
+
 run the command 'python detect.py --weights skin_burn_2022_8_21.pt --source YOUR_VIDEO.mp4'
 
 #Install pyVHR
