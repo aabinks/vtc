@@ -19,11 +19,13 @@ run the new_instance.sh script
 run the command 'source /opt/conda/etc/profile.d/conda.sh'
 
 # Install burn model
-Run the new_instance.sh script
+Run the get_burns.sh script
 
 ## To classifiy some images:
 
 run the command 'conda activate burns_vtc'
+
+cd to the 'Burn-Detection-Classification' directory
 
 run the command 'python detect.py --weights skin_burn_2022_8_21.pt --source YOUR_VIDEO.mp4'
 
