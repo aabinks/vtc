@@ -6,6 +6,7 @@ cd Burn-Detection-Classification/
 pip install -r requirements.txt
 cd ./deployment
 wget https://github.com/Michael-OvO/Burn-Detection-Classification/releases/download/v1.0.0/skin_burn_2022_8_21.pt
+pip install git+https:///github.com/mlflow/mlflow-export-import/#egg=mlflow-export-import
 cd ..
 
 echo "make sure to run: conda activate burns_vtc"
